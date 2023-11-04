@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    background: linear-gradient(130deg,rgb(255, 255, 255),rgb(130, 165, 157));
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.headline{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+    color: rgb(108, 108, 108);
+}
+
+.review-main-box{
+    background:linear-gradient(170deg,rgb(173, 222, 237),rgb(96, 158, 177));
+    width: 500px;
+    height: 500px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-div{
+    background:linear-gradient(rgb(155, 182, 182),rgb(27, 80, 103));
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px 150px 200px 20px;
+
+}
+.image{
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+}
+.details-div{
+    /* background-color: violet; */
+    max-width: 80%;
+    height: 53%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.name{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 40px;
+    color: rgb(35, 50, 50);
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+.proffession{
+    /* background-color: tomato; */
+    width: 100%;
+    height: 30px;
+    font-family: monospace;
+    color: rgb(35, 77, 69);
+    text-align: center;
+    line-height: 1.5;
+}
+
+.quote-text{
+    /* background-color: turquoise; */
+    width: 100%;
+    height: 90px;
+    line-height: 1.7;
+    text-align: center;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttons-div{
+    /* background-color: seagreen; */
+    width: 32%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prev-btn{
+    width: 30px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.nxt-btn{
+    width: 30px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.icons{
+    width: 27px;
+}
+
+
+.random-button-div{
+    /* background-color: turquoise; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.random-button{
+    background: linear-gradient(rgb(64, 98, 111),rgb(133, 200, 224));
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid rgb(154, 173, 192);
+    cursor: pointer;
+}
